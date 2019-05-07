@@ -5,3 +5,7 @@ def my_each(arr)
     i += 1;
   end
 end
+
+my_each(arr) do |i|
+  puts i
+end
